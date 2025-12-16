@@ -11,13 +11,10 @@ public class HelloController {
     public String hi(){
         return "hi cicd2 github action ^&&&^";
     }
-}
 
-@RestController
-public class HelloController {
 
     @GetMapping("/hi2")
-    public String hi(){
+    public String hi2(){
         return "hi cicd2 2번째 방법";
     }
 }
